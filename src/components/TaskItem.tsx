@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import {Task} from '../contexts/AppContextProvider';
+import {Task} from '../types';
 
 interface TaskItemProps {
   task: Task;

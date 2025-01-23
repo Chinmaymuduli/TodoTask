@@ -1,12 +1,6 @@
-// src/contexts/AppContextProvider.tsx
 import React, {useState, createContext, ReactNode, useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-export interface Task {
-  id: string;
-  title: string;
-  completed: boolean;
-}
+import {Task} from '../types';
 
 type ContextType = {
   tasks: Task[];

@@ -1,4 +1,3 @@
-// src/screens/HomeScreen.tsx
 import React, {useContext, useState} from 'react';
 import {
   StyleSheet,
